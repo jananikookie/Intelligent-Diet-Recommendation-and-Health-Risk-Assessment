@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NutriHealth - Day 1</title>
+    <style>
+        body { font-family: Arial; background: #f4f6f8; }
+        .box {
+            width: 500px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        h2 { text-align: center; color:#2e86de; }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #2e86de;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover { background: #1b4f72; }
+        .flash { color: red; font-weight: bold; text-align: center; margin-bottom: 10px; }
+    </style>
+</head>
+
+<body>
+<div class="box">
+    <h2>NutriHealth - Meal Entry</h2>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <p class="flash">{{ message }}</p>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <form action="/result" method="post">
+        <label>Meal (e.g., 1 cup rice, 2 boiled eggs)</label>
+        <input type="text" name="meal" required>
+
+        <label>Meal Time</label>
+<select name="meal_time" required>
+    <option value="Breakfast">Breakfast</option>
+    <option value="Lunch">Lunch</option>
+    <option value="Dinner">Dinner</option>
+    <option value="Snack">Snack</option>
+</select>
+<label>Blood Pressure</label>
+<input type="text" name="bp" placeholder="120/80">
+
+        <label>Blood Sugar (mg/dL)</label>
+        <input type="text" name="sugar">
+
+        <label>Thyroid Status</label>
+        <select name="thyroid">
+            <option>Normal</option>
+            <option>Low</option>
+            <option>High</option>
+        </select>
+
+        <label>Weight (kg)</label>
+        <input type="number" name="weight" min="1" required>
+
+        <label>Age</label>
+        <input type="number" name="age" min="1" required>
+
+        <label>Gender</label>
+        <select name="gender">
+            <option>Female</option>
+            <option>Male</option>
+        </select>
+
+        <label>Activity Level</label>
+        <select name="activity">
+            <option>Sedentary</option>
+            <option>Moderate</option>
+            <option>Active</option>
+        </select>
+
+        <button type="submit">Check Nutrition</button>
+    </form>
+</div>
+</body>
+</html>
