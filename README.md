@@ -33,7 +33,7 @@ The home page where users begin their nutrition and health assessment.
 
 Users enter personal health information, activity level, and meal details.
 
-![Health Details Form](screenshots/02-health-form.png)
+![Health Details Form](screenshots/health-form.png)
 
 ---
 
@@ -41,7 +41,7 @@ Users enter personal health information, activity level, and meal details.
 
 Interactive dashboard summarizing daily nutrition and health information.
 
-![Dashboard](screenshots/04-dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
@@ -49,7 +49,7 @@ Interactive dashboard summarizing daily nutrition and health information.
 
 Provides customized dietary recommendations based on user inputs and health conditions.
 
-![Diet Suggestions](screenshots/05-diet-suggestion.png)
+![Diet Suggestions](screenshots/diet-suggestion.png)
 
 ---
 
@@ -57,7 +57,7 @@ Provides customized dietary recommendations based on user inputs and health cond
 
 Machine Learning model predicts potential health risks based on user data.
 
-![Health Risk Assessment](screenshots/06-health-risk-assessment.png)
+![Health Risk Analysis](screenshots/health-risk-analysis.png)
 
 ---
 
@@ -65,7 +65,7 @@ Machine Learning model predicts potential health risks based on user data.
 
 Visual representation of calorie and nutrient distribution for better health tracking.
 
-![Nutrition Charts](screenshots/07-charts.png)
+![Nutrition Charts](screenshots/charts.png)
 
 ## Tech Stack:
 - Frontend: HTML, CSS, JavaScript
