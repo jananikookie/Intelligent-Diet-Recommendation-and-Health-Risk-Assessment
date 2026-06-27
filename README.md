@@ -84,15 +84,50 @@ Visual representation of calorie and nutrient distribution for better health tra
 - API: CalorieNinjas Nutrition API
 - Libraries: Pandas, Requests, Pickle
   
-## How to run:
+## How to Run
 
-- Install required Python libraries using: pip install flask pandas scikit-learn requests
-- Run the machine learning training file: python train_model.py (This will generate model.pkl file)
-- Start the Flask application: python app.py
-- Open the project in your browser: http://127.0.0.1:5000/
-- Ensure model.pkl file is present in the project folder before running the app
-- If you get "TemplateNotFound" error, move index.html and result.html inside a folder named templates
-- Make sure you have an active internet connection for the nutrition API to work
+1. Clone this repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Intelligent-Diet-Recommendation-and-Health-Risk-Assessment
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Train the Machine Learning model:
+
+   ```bash
+   python train_model.py
+   ```
+
+5. Run the Flask application:
+
+   ```bash
+   python app.py
+   ```
+
+6. Open your browser and visit:
+
+   ```
+   http://127.0.0.1:5000/
+   ```
+
+**Note:**
+
+* Ensure `model.pkl` is generated before running the application.
+* Keep the HTML files inside the `templates` folder.
+* An active internet connection is required for the CalorieNinjas Nutrition API.
+
 
 ## Project Structure
 
@@ -102,6 +137,24 @@ app.py
 train_model.py
 model.pkl
 README.md
+## Project Structure
+
+```text
+Intelligent-Diet-Recommendation-and-Health-Risk-Assessment/
+│
+├── screenshots/                  
+├── templates/                    
+│   ├── index.html
+│   └── result.html
+│
+├── app.py                       
+├── train_model.py                
+├── model.pkl                     
+├── health_dataset.csv          
+├── requirements.txt              
+└── README.md                     
+```
+
   
 ## ML Model:
 
