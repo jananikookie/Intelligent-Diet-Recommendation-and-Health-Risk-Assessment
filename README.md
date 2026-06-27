@@ -51,7 +51,7 @@ Provides a meal-wise breakdown of nutritional values to help users monitor their
 
 ![Meal-wise Nutrition Analysis](screenshots/nutrition-analysis.png)
 
-### 🥗 Personalized Diet Suggestions
+### Personalized Diet Suggestions
 
 Provides customized dietary recommendations based on user inputs and health conditions.
 
@@ -59,7 +59,7 @@ Provides customized dietary recommendations based on user inputs and health cond
 
 ---
 
-### ⚠️ Health Risk Assessment
+### Health Risk Assessment
 
 Machine Learning model predicts potential health risks based on user data.
 
@@ -67,7 +67,7 @@ Machine Learning model predicts potential health risks based on user data.
 
 ---
 
-### 📈 Nutrition Charts
+### Nutrition Charts
 
 Visual representation of calorie and nutrient distribution for better health tracking.
 
@@ -81,7 +81,7 @@ Visual representation of calorie and nutrient distribution for better health tra
 - Database/Storage: Session (Flask session storage)
 - API: CalorieNinjas Nutrition API
 - Libraries: Pandas, Requests, Pickle
-- 
+  
 ## How to run:
 
 - Install required Python libraries using: pip install flask pandas scikit-learn requests
@@ -110,4 +110,5 @@ Visual representation of calorie and nutrient distribution for better health tra
 - Make the UI fully mobile responsive for better user experience
   
 ## Author
-Janani
+
+**Janani**
