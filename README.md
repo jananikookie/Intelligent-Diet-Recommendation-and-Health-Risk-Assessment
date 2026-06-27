@@ -89,7 +89,7 @@ Visual representation of calorie and nutrient distribution for better health tra
 1. Clone this repository:
 
    ```bash
-   git clone <https://github.com/jananikookie/Intelligent-Diet-Recommendation-and-Health-Risk-Assessment>
+   git clone https://github.com/jananikookie/Intelligent-Diet-Recommendation-and-Health-Risk-Assessment
    ```
 
 2. Navigate to the project directory:
@@ -131,17 +131,21 @@ Visual representation of calorie and nutrient distribution for better health tra
 
 ## Project Structure
 
-- templates/
-- screenshots/
-  * index.html
-  * result.html 
-- app.py
-- train_model.py
-- model.pkl
-- README.md
-- health_dataset.csv
-- requirements.txt              
- 
+Intelligent-Diet-Recommendation-and-Health-Risk-Assessment/
+│
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+├── screenshots/
+│
+├── app.py
+├── train_model.py
+├── model.pkl
+├── health_dataset.csv
+├── requirements.txt
+└── README.md
+
 ## ML Model:
 
 - Project uses a Random Forest Classifier for health risk prediction
