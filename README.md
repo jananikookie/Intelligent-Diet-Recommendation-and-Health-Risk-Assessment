@@ -1,13 +1,14 @@
-# Intelligent-Diet-Recommendation-and-Health-Risk-Assessment
-
-## Overview:
-
-NutriHealth is a web-based health and nutrition tracking application built using Flask and Machine Learning. Allows users to enter their daily meals and health details such as blood sugar, blood pressure, thyroid status, age, weight, and activity level. The system analyzes the food using a nutrition API and predicts health risks like diabetes and blood pressure using a trained machine learning model. It also provides calorie tracking, dietary suggestions, and a smart dashboard to help users maintain a healthy lifestyle.
+# NutriHealth – Intelligent-Diet-Recommendation-and-Health-Risk-Assessment
 
 ## Problem Statement
 
 Maintaining a healthy lifestyle requires monitoring daily nutrition and understanding potential health risks. However, many people find it difficult to estimate calorie intake, analyze nutritional values, and identify health concerns such as diabetes, high blood pressure, or thyroid-related conditions based on their eating habits.
+
 NutriHealth addresses this challenge by combining nutrition analysis with Machine Learning to provide personalized diet recommendations and health risk assessment. The application helps users make informed dietary decisions by analyzing meal data, tracking nutrient intake, and predicting potential health risks through an interactive web interface.
+
+## Overview:
+
+NutriHealth is a web-based health and nutrition tracking application built using Flask and Machine Learning. It allows users to enter their daily meals and health details such as blood sugar, blood pressure, thyroid status, age, weight, and activity level. The system analyzes the food using a nutrition API and predicts health risks like diabetes and blood pressure using a trained machine learning model. It also provides calorie tracking, dietary suggestions, and a smart dashboard to help users maintain a healthy lifestyle.
 
 ## Features:
 - Meal-based calorie and nutrition analysis using external API
@@ -75,6 +76,7 @@ Visual representation of calorie and nutrient distribution for better health tra
 
 ## Tech Stack:
 
+- Programming Language: Python
 - Frontend: HTML, CSS, JavaScript
 - Backend: Flask (Python)
 - Machine Learning: Scikit-learn (Random Forest Classifier)
@@ -91,6 +93,15 @@ Visual representation of calorie and nutrient distribution for better health tra
 - Ensure model.pkl file is present in the project folder before running the app
 - If you get "TemplateNotFound" error, move index.html and result.html inside a folder named templates
 - Make sure you have an active internet connection for the nutrition API to work
+
+## Project Structure
+
+templates/
+screenshots/
+app.py
+train_model.py
+model.pkl
+README.md
   
 ## ML Model:
 
@@ -111,4 +122,5 @@ Visual representation of calorie and nutrient distribution for better health tra
   
 ## Author
 
-**Janani**
+**Janani Kumar**
+Computer Science Graduate
