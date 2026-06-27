@@ -1,6 +1,14 @@
 # Intelligent-Diet-Recommendation-and-Health-Risk-Assessment
+
 ## Overview:
+
 NutriHealth is a web-based health and nutrition tracking application built using Flask and Machine Learning. Allows users to enter their daily meals and health details such as blood sugar, blood pressure, thyroid status, age, weight, and activity level. The system analyzes the food using a nutrition API and predicts health risks like diabetes and blood pressure using a trained machine learning model. It also provides calorie tracking, dietary suggestions, and a smart dashboard to help users maintain a healthy lifestyle.
+
+## Problem Statement
+
+Maintaining a healthy lifestyle requires monitoring daily nutrition and understanding potential health risks. However, many people find it difficult to estimate calorie intake, analyze nutritional values, and identify health concerns such as diabetes, high blood pressure, or thyroid-related conditions based on their eating habits.
+NutriHealth addresses this challenge by combining nutrition analysis with Machine Learning to provide personalized diet recommendations and health risk assessment. The application helps users make informed dietary decisions by analyzing meal data, tracking nutrient intake, and predicting potential health risks through an interactive web interface.
+
 ## Features:
 - Meal-based calorie and nutrition analysis using external API
 - Tracks daily intake of calories, protein, carbohydrates, and fat
@@ -10,6 +18,55 @@ NutriHealth is a web-based health and nutrition tracking application built using
 - Interactive dashboard with visual charts
 - Shows remaining calorie and protein balance for the day
 - Preventive health tips for long-term wellness
+
+## 📸 Screenshots
+
+### 🏠 Landing Page
+
+The home page where users begin their nutrition and health assessment.
+
+![Landing Page](screenshots/01-landing-page.png)
+
+---
+
+### 📝 Health Details Form
+
+Users enter personal health information, activity level, and meal details.
+
+![Health Details Form](screenshots/02-health-form.png)
+
+---
+
+### 📊 Dashboard
+
+Interactive dashboard summarizing daily nutrition and health information.
+
+![Dashboard](screenshots/04-dashboard.png)
+
+---
+
+### 🥗 Personalized Diet Suggestions
+
+Provides customized dietary recommendations based on user inputs and health conditions.
+
+![Diet Suggestions](screenshots/05-diet-suggestion.png)
+
+---
+
+### ⚠️ Health Risk Assessment
+
+Machine Learning model predicts potential health risks based on user data.
+
+![Health Risk Assessment](screenshots/06-health-risk-assessment.png)
+
+---
+
+### 📈 Nutrition Charts
+
+Visual representation of calorie and nutrient distribution for better health tracking.
+
+![Nutrition Charts](screenshots/07-charts.png)
+
 ## Tech Stack:
 - Frontend: HTML, CSS, JavaScript
 - Backend: Flask (Python)
