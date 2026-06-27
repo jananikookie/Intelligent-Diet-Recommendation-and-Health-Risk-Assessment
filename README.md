@@ -131,31 +131,17 @@ Visual representation of calorie and nutrient distribution for better health tra
 
 ## Project Structure
 
-templates/
-screenshots/
-app.py
-train_model.py
-model.pkl
-README.md
-## Project Structure
-
-```text
-Intelligent-Diet-Recommendation-and-Health-Risk-Assessment/
-│
-├── screenshots/                  
-├── templates/                    
-│   ├── index.html
-│   └── result.html
-│
-├── app.py                       
-├── train_model.py                
-├── model.pkl                     
-├── health_dataset.csv          
-├── requirements.txt              
-└── README.md                     
-```
-
-  
+- templates/
+- screenshots/
+  * index.html
+  * result.html 
+- app.py
+- train_model.py
+- model.pkl
+- README.md
+- health_dataset.csv
+- requirements.txt              
+ 
 ## ML Model:
 
 - Project uses a Random Forest Classifier for health risk prediction
