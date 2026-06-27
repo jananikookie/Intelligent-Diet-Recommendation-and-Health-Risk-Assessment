@@ -131,6 +131,7 @@ Visual representation of calorie and nutrient distribution for better health tra
 
 ## Project Structure
 
+```text
 Intelligent-Diet-Recommendation-and-Health-Risk-Assessment/
 │
 ├── templates/
@@ -145,6 +146,7 @@ Intelligent-Diet-Recommendation-and-Health-Risk-Assessment/
 ├── health_dataset.csv
 ├── requirements.txt
 └── README.md
+```
 
 ## ML Model:
 
@@ -166,4 +168,5 @@ Intelligent-Diet-Recommendation-and-Health-Risk-Assessment/
 ## Author
 
 **Janani Kumar**
+
 Computer Science Graduate
