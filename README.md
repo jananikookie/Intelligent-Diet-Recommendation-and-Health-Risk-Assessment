@@ -89,7 +89,7 @@ Visual representation of calorie and nutrient distribution for better health tra
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/jananikookie/Intelligent-Diet-Recommendation-and-Health-Risk-Assessment>
    ```
 
 2. Navigate to the project directory:
